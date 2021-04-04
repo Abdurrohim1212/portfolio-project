@@ -14,7 +14,9 @@ function MyPortfolio() {
       <div className="row">
         <div className="col-md-4 col-sm kartu">
           <div className="card">
-            <img src={Coure_detail} class="card-img-top" alt="Coure_detail" />
+            <a href="https://github.com/Abdurrohim1212/lektur-project">
+              <img src={Coure_detail} class="card-img-top" alt="Coure_detail" />
+            </a>
             <div className="card-body">
               <p className="card-text">
                 Glints Academy Final Project.This project basically the last
@@ -35,7 +37,9 @@ function MyPortfolio() {
         </div>
         <div className="col-md-4 col-sm kartu ">
           <div className="card">
-            <img src={Movee} className="card-img-top" alt="Coure_detail" />
+            <a href="https://github.com/Abdurrohim1212/mov-e-project">
+              <img src={Movee} className="card-img-top" alt="Coure_detail" />
+            </a>
             <div className="card-body">
               <p className="card-text">
                 This mini-project is a mandatory agenda held by Binar academy
@@ -52,11 +56,13 @@ function MyPortfolio() {
         </div>
         <div className="col-md-4 col-sm kartu ">
           <div className="card">
-            <img
-              src={Grocery_bud}
-              className="card-img-top"
-              alt="Coure_detail"
-            />
+            <a href="https://github.com/Abdurrohim1212/grocery-bud">
+              <img
+                src={Grocery_bud}
+                className="card-img-top"
+                alt="Coure_detail"
+              />
+            </a>
             <div className="card-body">
               <p className="card-text">
                 This is really simple project called "Grocery bud" project build

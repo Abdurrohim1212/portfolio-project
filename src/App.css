@@ -113,6 +113,9 @@ nav ul li {
   height: 50% !important;
   overflow-y: auto;
 }
+.kartu {
+  cursor: pointer;
+}
 .card-img-top {
   height: 10rem !important;
   object-fit: cover !important;
@@ -177,6 +180,7 @@ a.footer-link:hover {
   }
   .kartu {
     margin-bottom: 5%;
+    cursor: pointer;
   }
   #contact {
     margin-top: 5%;
