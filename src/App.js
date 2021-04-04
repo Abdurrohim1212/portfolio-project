@@ -3,6 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Particles from "react-particles-js";
+import AboutMe from "./components/AboutMe";
+import MyPortfolio from "./components/MyPortfolio";
+import Contact from "./components/Contact";
 function App() {
   return (
     <div className="App">
@@ -29,6 +32,9 @@ function App() {
       />
       <Navbar />
       <Header />
+      <AboutMe />
+      <MyPortfolio />
+      <Contact />
     </div>
   );
 }

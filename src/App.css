@@ -10,6 +10,12 @@
 body {
   font-family: "Roboto condensed", sans-serif;
 }
+h2 {
+  font-size: 3rem !important;
+}
+p {
+  font-size: 1.3rem !important;
+}
 nav {
   z-index: 2;
 }

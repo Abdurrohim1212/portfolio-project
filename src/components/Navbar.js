@@ -33,16 +33,6 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Services
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                How Work
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
                 Portfolio
               </a>
             </li>
