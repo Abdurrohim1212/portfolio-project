@@ -6,9 +6,10 @@ import Particles from "react-particles-js";
 import AboutMe from "./components/AboutMe";
 import MyPortfolio from "./components/MyPortfolio";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="home">
       <Particles
         className="particle-canvas"
         params={{
@@ -35,6 +36,7 @@ function App() {
       <AboutMe />
       <MyPortfolio />
       <Contact />
+      <Footer />
     </div>
   );
 }

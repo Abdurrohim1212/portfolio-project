@@ -13,7 +13,7 @@ function Header() {
           backSpeed={60}
           loop
         />
-        <a href="#" className="btn-main-offer">
+        <a href="#contact" className="btn-main-offer">
           Contact Me
         </a>
       </div>
